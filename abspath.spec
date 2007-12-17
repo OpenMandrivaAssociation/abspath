@@ -7,7 +7,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: File tools
 Url: http://voxel.jouy.inra.fr/darcs/abspath
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: python
 BuildRequires: asciidoc
 BuildRequires: xmlto
