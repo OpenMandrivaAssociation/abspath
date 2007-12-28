@@ -2,8 +2,9 @@
 Summary: Return the absolute path of a file or directory
 Name: abspath
 Version: 0.1
-Release: %mkrel 1
+Release: %mkrel 2
 Source0: %{name}-%{version}.tar.bz2
+Patch0:	 abspath-asciidoc.patch
 License: GPL
 Group: File tools
 Url: http://voxel.jouy.inra.fr/darcs/abspath
@@ -20,6 +21,7 @@ are passed on the command line, the standard input is used.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 chmod a+x abspath
