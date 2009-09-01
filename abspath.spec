@@ -2,7 +2,7 @@
 Summary: Return the absolute path of a file or directory
 Name: abspath
 Version: 0.1
-Release: %mkrel 4
+Release: %mkrel 5
 Source0: %{name}-%{version}.tar.bz2
 Patch0:	 abspath-asciidoc.patch
 License: GPL
