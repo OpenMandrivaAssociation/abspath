@@ -1,7 +1,7 @@
 Summary:	Return the absolute path of a file or directory
 Name:		abspath
 Version:	0.1
-Release:	6
+Release:	7
 License:	GPLv2+
 Group:		File tools
 Url:		http://voxel.jouy.inra.fr/darcs/abspath
